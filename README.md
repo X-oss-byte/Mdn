@@ -2,6 +2,10 @@
 
 [https://github.com/mdn/browser-compat-data](https://github.com/mdn/browser-compat-data)
 
+*Package files contain zero width unicode characters. This could indicate a supply chain attack.
+
+*SUGGESTION
+Packages should remove unnecessary zero width unicode characters and use their visible counterparts
 The `browser-compat-data` ("BCD") project contains machine-readable browser (and JavaScript runtime) compatibility data for Web technologies, such as Web APIs, JavaScript features, CSS properties and more. Our goal is to document accurate compatibility data for Web technologies, so web developers may write cross-browser compatible websites easier. BCD is used in web apps and software such as [MDN Web Docs](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs), CanIUse, Visual Studio Code, WebStorm and [more](#Projects-using-the-data).
 
 Read how this project is [governed](GOVERNANCE.md).
